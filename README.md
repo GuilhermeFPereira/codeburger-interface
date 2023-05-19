@@ -1,3 +1,13 @@
+# Interface do code-burger , realizado em React
+
+Para dar uniformidade ao código e deixar dinamico, utilizei Eslint + Prettier
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
