@@ -6,13 +6,14 @@ import * as Yup from "yup";
 
 import LoginImg from "../../assets/login-image.svg";
 import Logo from "../../assets/logo.svg";
+import Button from "../../components/Button";
+import api from "../../services/api";
 import {
   Container,
   LoginImage,
   ContainerItens,
   Label,
   Input,
-  Button,
   SignInLink,
   ErrorMessage,
 } from "./styles";
@@ -35,7 +36,14 @@ function Login() {
     resolver: yupResolver(schema),
   });
 
-  const onSubmit = (data) => console.log(data);
+  const onSubmit = async (clientData) => {
+    const response = await api.post("sessions", {
+      email: clientData.email,
+      password: clientData.password,
+    });
+
+    console.log(response);
+  };
 
   return (
     <Container>
@@ -61,7 +69,9 @@ function Login() {
           />
           <ErrorMessage>{errors.password?.message}</ErrorMessage>
 
-          <Button type="submit">Sign In</Button>
+          <Button type="submit" style={{ marginTop: 75, marginBottom: 25 }}>
+            Sign In
+          </Button>
         </form>
         <SignInLink>
           Não possui conta? <a>Sign Up</a>
