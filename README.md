@@ -5,6 +5,10 @@ Para dar uniformidade ao código e deixar dinamico, utilizei Eslint + Prettier
 Foi utilizado a biblioteca react-hook-form como um formulário para mapear os campos da aplicação, e esse formulário me entregou todos os dados,auxiliando na manipulacão das informações facilmente.
 Essa biblioteca, tambem auxiliou para fazer a validação do formulário de Login . (https://react-hook-form.com/get-started/#SchemaValidation).
 
+Adicionado axios para fazer a conexao com meu back-end/banco de dados
+
+Biblioteca prop-types para validacao de dados/ props, que cheguem de forma correta
+
 
 
 
