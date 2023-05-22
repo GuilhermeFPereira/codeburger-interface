@@ -9,6 +9,7 @@ Adicionado axios para fazer a conexao com meu back-end/banco de dados
 
 Biblioteca prop-types para validacao de dados/ props, que cheguem de forma correta
 
+Foi adcionado uma biblioteca chamada react-toastify , com a funcao de avisar ao usuario se os requerimentos que ele fez estao corretos ou se deu algum problema, e ele avisa oque tem que ser feito.
 
 
 
