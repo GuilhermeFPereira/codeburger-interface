@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const ContainerButton = styled.button`
   width: 182.81px;
@@ -22,4 +22,4 @@ export const ContainerButton = styled.button`
   &:active {
     opacity: 0.6;
   }
-`;
+`

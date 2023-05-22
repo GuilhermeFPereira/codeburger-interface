@@ -1,4 +1,6 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components'
+
+import 'react-toastify/dist/ReactToastify.css'
 
 export default createGlobalStyle`
     *{
@@ -8,4 +10,4 @@ export default createGlobalStyle`
         font-family:'Roboto', sans-serif;
         outline: none;
     }
-`;
+`
