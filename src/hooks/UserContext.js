@@ -1,15 +1,34 @@
-import React, { createContext, useContext } from 'react'
+// Muito impotante , salvar esse useContext , para nos proximos trabalhos ter como referencia
+
+import React, { createContext, useContext, useEffect, useState } from 'react'
 
 import PropTypes from 'prop-types'
 
 const UserContext = createContext({})
 
 export const UserProvider = ({ children }) => {
-  const user = { name: 'Rodolfo', age: 18 }
-  const outroUser = { name: 'jao', age: 24 }
+  const [userData, setUserData] = useState({})
+
+  const putUserData = async (userInfo) => {
+    setUserData(userInfo)
+
+    await localStorage.setItem('codeburger:userData', JSON.stringify(userInfo))
+  }
+
+  useEffect(() => {
+    const loadUserData = async () => {
+      const clientInfo = await localStorage.getItem('codeburger:userData')
+
+      if (clientInfo) {
+        setUserData(JSON.parse(clientInfo))
+      }
+    }
+
+    loadUserData()
+  }, [])
 
   return (
-    <UserContext.Provider value={{ user, outroUser }}>
+    <UserContext.Provider value={{ putUserData, userData }}>
       {children}
     </UserContext.Provider>
   )
