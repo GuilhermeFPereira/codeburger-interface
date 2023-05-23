@@ -48,7 +48,7 @@ export const Label = styled.p`
   line-height: 14px;
 
   color: #ffffff;
-  margin-top: ${(props) => (props.error ? '12px' : '28px')};
+  margin-top: ${props => (props.error ? '12px' : '28px')};
   margin-bottom: 5px;
 `
 
@@ -59,7 +59,7 @@ export const Input = styled.input`
   background: #ffffff;
   box-shadow: 3px 3px 10px rgba(74, 144, 226, 0.19);
   border-radius: 5px;
-  border: ${(props) => (props.error ? '2px solid #CC1717' : 'none')};
+  border: ${props => (props.error ? '2px solid #CC1717' : 'none')};
   padding-left: 10px;
 `
 

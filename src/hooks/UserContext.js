@@ -9,7 +9,7 @@ const UserContext = createContext({})
 export const UserProvider = ({ children }) => {
   const [userData, setUserData] = useState({})
 
-  const putUserData = async (userInfo) => {
+  const putUserData = async userInfo => {
     setUserData(userInfo)
 
     await localStorage.setItem('codeburger:userData', JSON.stringify(userInfo))

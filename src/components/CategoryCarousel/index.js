@@ -34,7 +34,7 @@ function CategoryCarousel() {
         breakPoints={breakPoints}
       >
         {categories &&
-          categories.map((category) => (
+          categories.map(category => (
             <ContainerItems key={category.id}>
               <Image src={category.url} alt="foto da categoria" />
               <Button>{category.name}</Button>

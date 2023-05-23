@@ -38,6 +38,7 @@ export const ContainerItems = styled.div`
     font-weight: bold;
     font-size: 18px;
     line-height: 120%;
+
     color: #424242;
   }
 `

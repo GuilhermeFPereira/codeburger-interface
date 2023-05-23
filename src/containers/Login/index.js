@@ -42,7 +42,7 @@ function Login() {
     resolver: yupResolver(schema)
   })
 
-  const onSubmit = async (clientData) => {
+  const onSubmit = async clientData => {
     const { data } = await toast.promise(
       api.post('sessions', {
         email: clientData.email,

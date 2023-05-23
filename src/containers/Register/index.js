@@ -42,7 +42,7 @@ function Register() {
     resolver: yupResolver(schema)
   })
 
-  const onSubmit = async (clientData) => {
+  const onSubmit = async clientData => {
     try {
       const { status } = await api.post(
         'users',
