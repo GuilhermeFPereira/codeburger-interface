@@ -15,6 +15,8 @@ Mais um react Hook utilizado, Context API (Redux tambem faz isso) , foi utilizad
 
 Para fazer as rotas, foi utilizado o React-router-Dom
 
+Foi adicionado Token JWT as chamas a API, para autentizacao do usuario ou admin, e validacao
+
 
 
 
