@@ -11,7 +11,7 @@ Biblioteca prop-types para validacao de dados/ props, que cheguem de forma corre
 
 Foi adcionado uma biblioteca chamada react-toastify , com a funcao de avisar ao usuario se os requerimentos que ele fez estao corretos ou se deu algum problema, e ele avisa oque tem que ser feito.
 
-Mais um react Hook utilizado, Context API (Redux tambem faz isso) , foi utilizado para facilitar a transicao de dados na aplicacao. Principalmente quando um usuario estiver logado na minha pagina, vou precisar desses dados o tempo todo. Se utiliza do UseContext.
+Mais um react Hook utilizado, useContext API (Redux tambem faz isso) , foi utilizado para facilitar a transicao de dados na aplicacao. Principalmente quando um usuario estiver logado na minha pagina, vou precisar desses dados o tempo todo. Se utiliza do UseContext.
 
 Para fazer as rotas, foi utilizado o React-router-Dom
 
