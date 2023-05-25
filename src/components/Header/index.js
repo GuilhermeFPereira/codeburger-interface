@@ -1,4 +1,5 @@
 import React from 'react'
+import { useHistory } from 'react-router-dom'
 
 import Cart from '../../assets/cart.svg'
 import Person from '../../assets/person.svg'
@@ -13,16 +14,26 @@ import {
 } from './styles'
 
 export function Header() {
+  const {
+    push,
+    location: { pathname }
+  } = useHistory()
   return (
     <Container>
       <ContainerLeft>
-        <PageLink>Home</PageLink>
-
-        <PageLink>Ver Produtos</PageLink>
+        <PageLink onClick={() => push('/')} isActive={pathname === '/'}>
+          Home
+        </PageLink>
+        <PageLink
+          onClick={() => push('/produtos')}
+          isActive={pathname.includes('produtos')}
+        >
+          Ver Produtos
+        </PageLink>
       </ContainerLeft>
 
       <ContainerRight>
-        <PageLink>
+        <PageLink onClick={() => push('/carrinho')}>
           <img src={Cart} alt="Carrinho" />
         </PageLink>
         <Line></Line>
