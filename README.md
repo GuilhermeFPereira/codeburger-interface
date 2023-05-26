@@ -11,15 +11,17 @@ Biblioteca prop-types para validacao de dados/ props, que cheguem de forma corre
 
 Foi adcionado uma biblioteca chamada react-toastify , com a funcao de avisar ao usuario se os requerimentos que ele fez estao corretos ou se deu algum problema, e ele avisa oque tem que ser feito.
 
-Mais um react Hook utilizado, useContext API (Redux tambem faz isso) , foi utilizado para facilitar a transicao de dados na aplicacao. Principalmente quando um usuario estiver logado na minha pagina, vou precisar desses dados o tempo todo. Se utiliza do UseContext.
+Mais um react Hook utilizado, useContext API (Redux tambem faz isso) , foi utilizado para facilitar a transicao de dados na aplicação. Principalmente quando um usuario estiver logado na minha pagina, vou precisar desses dados o tempo todo. Se utiliza do UseContext.
 
 Para fazer as rotas, foi utilizado o React-router-Dom
 
-Foi adicionado Token JWT as chamas a API, para autentizacao do usuario ou admin, e validacao.
+Foi adicionado Token JWT as chamas a API, para autentização do usuario ou admin, e validação.
 
-Utilizei o react-elastic-carousel, para me auxiliar com a criacao dos carroceis da aplicacao
+Utilizei o react-elastic-carousel, para me auxiliar com a criação dos carroceis da aplicação
 
 Para a aplicação ficar com o código limpo e organizado, foram criados as pastas de assets para guardar as imagens, a pasta de components para armazenar cada item de cada pagina, e tambem foi criado a pasta de Containers para separar cada pagina do site, dessa maneira fica mais facil para fazer manutenções futuras e identificar como foi feito o projeto.
+
+Adicionado uma biblioteca de componentes, Mui Material, para criação da tabela de organização dos pedidos, na pagina de pedidos do Admin.
 
 
 
