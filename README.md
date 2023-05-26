@@ -19,6 +19,8 @@ Foi adicionado Token JWT as chamas a API, para autentizacao do usuario ou admin,
 
 Utilizei o react-elastic-carousel, para me auxiliar com a criacao dos carroceis da aplicacao
 
+Para a aplicação ficar com o código limpo e organizado, foram criados as pastas de assets para guardar as imagens, a pasta de components para armazenar cada item de cada pagina, e tambem foi criado a pasta de Containers para separar cada pagina do site, dessa maneira fica mais facil para fazer manutenções futuras e identificar como foi feito o projeto.
+
 
 
 
