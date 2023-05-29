@@ -24,6 +24,8 @@ Para a aplicação ficar com o código limpo e organizado, foram criados as past
 Adicionado uma biblioteca de componentes, Mui Material, para criação da tabela de organização dos pedidos, na pagina de pedidos do Admin.
 
 Para me auxiliar na criação do select , de atualizar os pedidos, utilizei a biblioteca react-select.
+Novamente foi utilizado o react-hook-form, porem, na parte de Admin da aplicação , para auxiliar na criação e atualização dos produtos da empresa. 
+
 
 
 
