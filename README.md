@@ -26,6 +26,7 @@ Adicionado uma biblioteca de componentes, Mui Material, para criação da tabela
 Para me auxiliar na criação do select , de atualizar os pedidos, utilizei a biblioteca react-select.
 Novamente foi utilizado o react-hook-form, porem, na parte de Admin da aplicação , para auxiliar na criação e atualização dos produtos da empresa. 
 
+Para cadastrar novos produtos, enviar para o back-end, foi utilizado o FormData.append, foi necessario para encaminhar junto com as informações, a ilustração do produto. 
 
 
 
