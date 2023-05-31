@@ -1,32 +1,42 @@
-# Interface do code-burger , realizado em React
+# Interface do code-burger , realizado em <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
 
 Para dar uniformidade ao código e deixar dinamico, utilizei Eslint + Prettier
 
 Foi utilizado a biblioteca react-hook-form como um formulário para mapear os campos da aplicação, e esse formulário me entregou todos os dados,auxiliando na manipulacão das informações facilmente.
 Essa biblioteca, tambem auxiliou para fazer a validação do formulário de Login . (https://react-hook-form.com/get-started/#SchemaValidation).
 
-Adicionado axios para fazer a conexao com meu back-end/banco de dados
+Adicionado axios para fazer a conexão com meu back-end/banco de dados
 
-Biblioteca prop-types para validacao de dados/ props, que cheguem de forma correta
+Biblioteca prop-types para validação de dados/ props, que cheguem de forma correta.
 
-Foi adcionado uma biblioteca chamada react-toastify , com a funcao de avisar ao usuario se os requerimentos que ele fez estao corretos ou se deu algum problema, e ele avisa oque tem que ser feito.
+Foi adcionado uma biblioteca chamada react-toastify , com a função de avisar ao usuário se os requerimentos que ele fez estão corretos ou se deu algum problema, e ele avisa oque tem que ser feito.
 
-Mais um react Hook utilizado, useContext API (Redux tambem faz isso) , foi utilizado para facilitar a transicao de dados na aplicação. Principalmente quando um usuario estiver logado na minha pagina, vou precisar desses dados o tempo todo. Se utiliza do UseContext.
+Outro react hook utilizado foi useContext API (Redux tambem faz isso) , foi utilizado para facilitar a transição de dados na aplicação. Principalmente quando um usuário estiver logado no site, será necessário esses dados o tempo todo. Se utiliza do UseContext.
 
-Para fazer as rotas, foi utilizado o React-router-Dom
+Para fazer as rotas, foi utilizado o React-router-Dom.
 
 Foi adicionado Token JWT as chamas a API, para autentização do usuario ou admin, e validação.
 
-Utilizei o react-elastic-carousel, para me auxiliar com a criação dos carroceis da aplicação
+Utilizei o react-elastic-carousel, para me auxiliar com a criação dos carroceis da aplicação.
 
-Para a aplicação ficar com o código limpo e organizado, foram criados as pastas de assets para guardar as imagens, a pasta de components para armazenar cada item de cada pagina, e tambem foi criado a pasta de Containers para separar cada pagina do site, dessa maneira fica mais facil para fazer manutenções futuras e identificar como foi feito o projeto.
+Para a aplicação ficar com o código limpo e organizado, foram criados as pastas de assets para guardar as imagens, a pasta de components para armazenar cada item de cada página, e tambem foi criado a pasta de Containers para separar cada página do site, dessa maneira fica mais fácil para fazer manutenções futuras e identificar como foi feito o projeto.
 
-Adicionado uma biblioteca de componentes, Mui Material, para criação da tabela de organização dos pedidos, na pagina de pedidos do Admin.
+Adicionado uma biblioteca de componentes, Mui Material, para criação da tabela de organização dos pedidos, na pagina de pedidos do Admin. E vários features visuais na página.
 
 Para me auxiliar na criação do select , de atualizar os pedidos, utilizei a biblioteca react-select.
 Novamente foi utilizado o react-hook-form, porem, na parte de Admin da aplicação , para auxiliar na criação e atualização dos produtos da empresa. 
 
-Para cadastrar novos produtos, enviar para o back-end, foi utilizado o FormData.append, foi necessario para encaminhar junto com as informações, a ilustração do produto. 
+Para cadastrar novos produtos, enviar para o back-end, foi utilizado o FormData.append, foi necessário para encaminhar junto com as informações, a ilustração do produto. 
+
+# Ferramentas :hammer: :computer:
+
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+<img src="https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white">
+<img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white">
+<img src="https://img.shields.io/badge/json%20web%20tokens-323330?style=for-the-badge&logo=json-web-tokens&logoColor=pink">
 
 
 
